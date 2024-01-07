@@ -1,0 +1,78 @@
+.bannerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannerImg{
+position: relative;
+}
+.imgText{
+position: absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.imgText h3{
+font-size: 32px;
+
+}
+
+.imgText h1{
+font-size: 72px;
+}
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.3); 
+border-radius: 10px;
+}
+
+
+/* section 2 */
+.offerText{
+text-align: center;
+}
+
+.offerPost{
+margin-top: 60px;
+}
+
+.partyImg{
+position: relative;
+}
+
+.partyText{
+position: absolute;
+top: 50%;
+left: 10%;
+color: aliceblue;
+}
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Adjust the darkness level */
+}
+
+.partySection{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 60px 0 0 0;
+}
+
+.newYearImg{
+position: absolute;
+top: 15%;
+left: 65%;
+}
