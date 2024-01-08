@@ -1,78 +1,345 @@
-.bannerSection{
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* section 1 */
+.bannerSection {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.bannerImg{
-position: relative;
-}
-.imgText{
-position: absolute;
-top: 50%;
-left: 50%;
-text-align: center;
-transform: translate(-50%, -50%);
-color: white;
+.bannerImg {
+    position: relative;
 }
 
-.imgText h3{
-font-size: 32px;
+.imgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerH1 {
+    font-size: 72px;
+}
+
+.newYearText {
+    font-size: 32px;
 
 }
 
-.imgText h1{
-font-size: 72px;
+.imgText h1 {
+    font-size: 72px;
 }
+
 .overlay {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.3); 
-border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 
 /* section 2 */
-.offerText{
-text-align: center;
+
+.offerText {
+    text-align: center;
 }
 
-.offerPost{
-margin-top: 60px;
+
+
+.discountText{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
 }
 
-.partyImg{
-position: relative;
+.offerPost {
+    margin-top: 60px;
 }
 
-.partyText{
-position: absolute;
-top: 50%;
-left: 10%;
-color: aliceblue;
+/* section 3 */
+.partyImgDiv {
+    position: relative;
+
 }
+
+.midnightParty{
+    font-size: 64px;
+}
+
+.partyText {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: aliceblue;
+}
+
+.joinNow{
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 3px;
+}
+
 .overlay {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Adjust the darkness level */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+
 }
 
-.partySection{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 60px 0 0 0;
+.partySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
 }
 
-.newYearImg{
-position: absolute;
-top: 15%;
-left: 65%;
+.newYearImg {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+
+/* section 4 */
+.locationAndTime {
+    margin: 60px auto;
+    width: 1320px;
+    height: 482px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.joinBtn {
+    background-color: red;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.addressText {
+    margin: 0 0 0 0;
+}
+
+.wishBanner {
+    display: flex;
+    margin: 60px auto;
+    width: 1320px;
+    height: 482px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.enjoyImg {
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+
+/* section 5 */
+.holydayOffer {
+    display: flex;
+    margin: 60px auto;
+    width: 1320px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.holidaysText{
+font-size: 50px;
+}
+
+.holidays{
+
+}
+
+.holydayText {
+    text-align: center;
+}
+
+.giftBox {
+    position: relative;
+    margin: 60px auto;
+    width: 1320px;
+    height: 700px;
+
+}
+
+.rectangleRedImg {
+    position: absolute;
+    bottom: 0;
+}
+
+.giftImg {
+    position: absolute;
+    bottom: 1%;
+}
+
+.girlImg {
+    position: absolute;
+    top: 5%;
+    left: 67.5%;
+}
+
+.discount {
+    position: absolute;
+    left: 90%;
+    bottom: 44%;
+}
+
+/* section 6 */
+.gridCollection {
+    margin: 60px auto;
+    width: 1320px;
+   
+
+}
+
+.imgGrid {
+    display: flex;
+    justify-content: center;
+}
+
+.imgGrid img {
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.gridText {
+    margin-left: 8px;
+}
+
+
+/* section 7 */
+.subscribeSection {
+    margin: 60px auto;
+    width: 1320px;
+    height: 482px;
+    background-color: #FF00000D;
+    border-radius: 15px;
+
+}
+
+.subscribeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeText {
+    text-align: center;
+}
+
+.input {
+    background-color: white;
+    padding: 10px 90px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    color: black;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribeBtn {
+    background-color: red;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.inputDiv {
+    margin-top: 40px;
+}
+
+
+/* section 8 */
+
+.footer {
+    background-color: black;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: center;
+}
+
+.contactIcon {
+    display: flex;
+    align-items: center;
+}
+
+.contactIcon img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+
+}
+
+
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.socialIcons img {
+    margin-right: 15px;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.horizental {
+    width: 1300px;
+}
+
+
+/* Global styles */
+.redLines {
+    color: red;
+    font-size: 14px;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: rgb(176, 157, 157);
+}
+
+.awesomePortfolio{
+    font-size: 30px;
+    font-weight: 600;
 }
